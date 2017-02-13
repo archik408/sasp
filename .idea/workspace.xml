@@ -32,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sasp1.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sasp1.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sasp1/sasp1.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -54,6 +54,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -62,6 +72,7 @@
         <option value="$PROJECT_DIR$/sasp1.js" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/sasp1/sasp1.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -299,12 +310,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487001049857</updated>
-      <workItem from="1487001051031" duration="1357000" />
+      <workItem from="1487001051031" duration="1430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1357000" />
+    <option name="totallyTimeSpent" value="1430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -386,6 +397,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
