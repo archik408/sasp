@@ -2,7 +2,7 @@
 
 ###Image:
 
-![img](./sasp1/pic.png "sasp1")
+![img](./pic.png "sasp1")
 
 ###Example:
 ```javascript
