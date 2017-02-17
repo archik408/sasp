@@ -1,11 +1,12 @@
-var module = (function Module(global){
-    function add(a, b) {
-        return a + b;
+const loadedMap = [];
+const waiters = [];
+function reqjs(name, dependencies, module) {
+    loadedMap[name] = module;
+    for (let i = 0; i <= dependencies.length; i++) {
+        if(!loadedMap[dependencies[i]]) {
+            waiters[name] //TODO
+        }
     }
+}
 
-    return {
-        add: add
-    };
-})(global);
-
-console.log(module.add(2, 2));
+reqjs()
