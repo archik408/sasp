@@ -21,8 +21,8 @@ function checkThatAllLoaded(dependencies) {
 }
 
 function loadModule(name, dependencies) {
-  const module = modulesMap[name];
   if(checkThatAllLoaded(dependencies)) {
+    const module = modulesMap[name];
     const args = dependencies.map(depName => modulesMap[depName].instance)
     module.instance = module.constructor(...args);
     loadRelated(name);
@@ -53,8 +53,9 @@ reqjs('m1', ['m2', 'm3'], (m2, m3) => {
   m3.call('m1 call m3');
 });
 
-reqjs('m2', [], () => {
+reqjs('m2', ['m4'], (m4) => {
   console.log('m2 is loaded');
+  m4.call('m2 call m4');
   return { call: console.log };
 });
 
@@ -62,10 +63,29 @@ reqjs('m3', [], () => {
   console.log('m3 is loaded');
   return { call: console.log };
 });
+
+reqjs('m4', [], () => {
+  console.log('m4 is loaded');
+  return { call: console.log };
+});
+```
+Output
+```
+192:sasp archik$ node amd/test.js
+m3 is loaded
+m4 is loaded
+m2 is loaded
+m2 call m4
+m1 is loaded
+m1 call m2
+m1 call m3
 ```
 
 ### Implementations and links
-+https://github.com/amdjs/amdjs-api/wiki/AMD
-+https://en.wikipedia.org/wiki/Asynchronous_module_definition
-+http://requirejs.org/
-+https://docs.angularjs.org/guide/module
++ https://github.com/amdjs/amdjs-api/wiki/AMD
+
++ https://en.wikipedia.org/wiki/Asynchronous_module_definition
+
++ http://requirejs.org
+
++ https://docs.angularjs.org/guide/module
