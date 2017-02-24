@@ -4,8 +4,8 @@
 
 ![img](./pic.png "AMD")
 
-### Very simple example:
-AMD Implementation
+### Very Simple Example
+AMD Implementation:
 ```javascript
 const modulesMap = {};
 
@@ -45,7 +45,7 @@ function reqjs(name, dependencies, moduleConstructor) {
   loadModule(name, dependencies);
 }
 ```
-Load different modules
+Load different modules:
 ```javascript
 reqjs('m1', ['m2', 'm3'], (m2, m3) => {
   console.log('m1 is loaded');
@@ -69,7 +69,7 @@ reqjs('m4', [], () => {
   return { call: console.log };
 });
 ```
-Output
+Output:
 ```
 192:sasp archik$ node amd/test.js
 m3 is loaded
@@ -81,11 +81,11 @@ m1 call m2
 m1 call m3
 ```
 
-### Implementations and links
-+ https://github.com/amdjs/amdjs-api/wiki/AMD
+### Implementations and Links
++ AMD.js - https://github.com/amdjs/amdjs-api/wiki/AMD
 
-+ https://en.wikipedia.org/wiki/Asynchronous_module_definition
++ AMD - https://en.wikipedia.org/wiki/Asynchronous_module_definition
 
-+ http://requirejs.org
++ Requirejs - http://requirejs.org
 
-+ https://docs.angularjs.org/guide/module
++ Angular.js 1.x DI - https://docs.angularjs.org/guide/module
