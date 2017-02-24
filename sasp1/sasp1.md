@@ -1,10 +1,10 @@
 # Module
 
-### Image:
+### Image
 
 ![img](./pic.png "sasp1")
 
-### Example:
+### Example
 ```javascript
 function Module(global) {
     function add(a, b) {
@@ -20,4 +20,3 @@ var module = Module(global);
 
 console.log(module.add(2, 2));
 ```
-

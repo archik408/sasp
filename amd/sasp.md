@@ -1,6 +1,6 @@
 ## Asynchronous Module Definition (AMD)
 
-### Image:
+### Image
 
 ![img](./pic.png "AMD")
 

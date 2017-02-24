@@ -41,6 +41,8 @@ call m2
 
 
 ### Implementations and Links
-+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
++ ECMAScript Spec - http://www.ecma-international.org/ecma-262/6.0/#sec-modules
 
-+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
++ MDN import - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+
++ MDN export - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export

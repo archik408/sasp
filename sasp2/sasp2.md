@@ -1,10 +1,10 @@
 ## Singleton Module or Immediately Invoked Function Expression (IIFE)
 
-### Image:
+### Image
 
 ![img](./pic.png "sasp1")
 
-### Example:
+### Example
 ```javascript
 var module = (function Module(global){
     function add(a, b) {
@@ -18,4 +18,3 @@ var module = (function Module(global){
 
 console.log(module.add(2, 2));
 ```
-
