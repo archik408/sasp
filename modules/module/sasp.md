@@ -2,7 +2,7 @@
 
 ### Image
 
-![img](./pic.png "sasp1")
+![img](pic.png "sasp1")
 
 ### Example
 ```javascript
@@ -20,3 +20,8 @@ var module = Module(global);
 
 console.log(module.add(2, 2));
 ```
+
+### Implementations and Links
++ Wiki - https://en.wikipedia.org/wiki/Module_pattern
+
++ Modular Programming - https://en.wikipedia.org/wiki/Modular_programming

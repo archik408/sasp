@@ -2,7 +2,7 @@
 
 ### Image
 
-![img](./pic.png "AMD")
+![img](pic.png "AMD")
 
 ### Very Simple Example
 AMD Implementation:

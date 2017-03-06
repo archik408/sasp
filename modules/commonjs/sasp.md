@@ -2,7 +2,7 @@
 
 ### Image
 
-![img](./pic.png "commonjs")
+![img](pic.png "commonjs")
 
 ### Example
 Module 1:

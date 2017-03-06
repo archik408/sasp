@@ -2,7 +2,7 @@
 
 ### Image
 
-![img](./pic.png "umd")
+![img](pic.png "umd")
 
 
 ### Implementations and Links

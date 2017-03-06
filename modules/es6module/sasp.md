@@ -2,7 +2,7 @@
 
 ### Image
 
-![img](./pic.png "es6module")
+![img](pic.png "es6module")
 
 ### Example
 Module1:
